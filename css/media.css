@@ -1,0 +1,678 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header */
+  .logo {
+    font-size: 26px;
+  }
+  .c_dd_menu {
+    min-width: 280px;
+    padding: 5px 5px;
+  }
+
+  .c_dd_menu[data-bs-popper] {
+    top: 50px;
+    left: -10px;
+  }
+  /* header */
+  /* slider */
+  .s_1 {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+  }
+  .s_1 h1 {
+    font-size: 40px;
+  }
+  .s_1 p {
+    margin-top: 40px;
+  }
+  .s_1 button {
+    margin-top: 30px;
+  }
+  /* slider */
+  /* services */
+
+  .t_arrow {
+    height: 30px;
+  }
+  .s_h1 {
+    font-size: 26px;
+  }
+  .s_p1 {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  .s_1 button {
+    width: 130px;
+    height: 35px;
+  }
+  .s_services {
+    margin: 40px 18px 20px !important;
+    padding: 70px 20px 30px !important;
+  }
+
+  .s_text hr {
+    margin-left: 85px;
+  }
+  /* services */
+  /* about */
+  .about {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .a_text {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .all_h1 {
+    font-size: 26px;
+  }
+  .all_p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .all_btn button {
+    width: 140px;
+    height: 35px;
+    margin-top: 5px;
+  }
+  /* about */
+  /* work */
+  .w_nn {
+    margin-left: 0px;
+  }
+  .w_inner_img {
+    width: 280px;
+    height: 330px;
+    margin: 10px 0px;
+  }
+  .overlay {
+    left: 8px;
+    right: 0;
+    width: 95%;
+  }
+  /* work */
+
+  /* choose */
+  .choose_top_bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .choose_text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .choose_text i {
+    font-size: 35px;
+  }
+  .choose_text .choose_h2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .choose_p {
+    margin-top: 20px;
+    padding: 0 35px;
+  }
+  .choose_text .coomon_hr {
+    width: 180px;
+    margin-left: 60px;
+  }
+  /* choose */
+  /* team */
+  .team_item {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .item_img {
+    margin-left: 20px;
+  }
+  .item_text {
+    margin-left: 20px;
+  }
+  /* team */
+  /* price */
+  .price_heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .price_heading fieldset legend {
+    margin-left: 115px;
+  }
+  .pih1 {
+    margin-top: 10px;
+  }
+  .price_item ul li {
+    padding-top: 10px;
+  }
+  .pitem_details button {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  /* price */
+  /* short */
+  .short_text p {
+    margin: 25px 0;
+  }
+  .short_button {
+    text-align: center;
+  }
+  .short_button button {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .short_button .all_btn {
+    margin-left: 10px;
+  }
+  /* short */
+  /* inner slider */
+  .inner_slider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .slider2_img {
+    padding: 0px !important;
+  }
+  .slider2_text {
+    padding-top: 0px;
+  }
+  .slidre2_button button {
+    margin: 50px -10px;
+  }
+  .slidre2_button button {
+    margin: 20px 0;
+    border: none;
+    background-color: transparent;
+    transform: rotate(0deg);
+  }
+  /* inner slider */
+  /* contact */
+  .contact {
+    margin: 40px 0;
+  }
+  .contact_form .s_h1 {
+    width: 200px;
+    height: 50px;
+    margin-top: -20px;
+    margin-left: 45px;
+  }
+  .custom_form {
+    padding: 20px 50px;
+  }
+  .custom_form .all_btn {
+    margin-left: 0px;
+  }
+  /* contact */
+  /* footer */
+  .f_tittle p {
+    padding: 15px 15px;
+  }
+  .f_icon ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .f_icon {
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+  .fb_text p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .fb_menu ul {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .fb_menu ul li a {
+    padding-right: 10px !important;
+    font-size: 15;
+  }
+
+  /* footer */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .logo {
+    font-size: 26px;
+  }
+  /* header */
+  /* slider */
+  .s_1 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .s_1 h1 {
+    font-size: 47px;
+  }
+  /* slider */
+  /* services */
+  .t_arrow {
+    height: 30px;
+  }
+  .s_h1 {
+    font-size: 26px;
+  }
+  .s_p1 {
+    margin-top: 30px;
+    padding: 0 10px;
+  }
+  .s_1 button {
+    width: 130px;
+    height: 35px;
+  }
+  .s_services {
+    margin: 40px 105px 20px !important;
+    padding: 70px 30px 40px !important;
+  }
+  .s_text hr {
+    margin-left: 140px !important;
+  }
+  /* services */
+  /* about */
+  .about {
+    margin-top: 40px;
+  }
+  .a_text {
+    text-align: center;
+    padding: 0 40px;
+  }
+  .all_h1 {
+    font-size: 26px;
+  }
+  .all_p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .all_btn button {
+    width: 140px;
+    height: 35px;
+    margin-top: 5px;
+  }
+  /* about */
+  /* choose */
+  .choose_top_bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .choose_text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .choose_text i {
+    font-size: 38px;
+  }
+  .choose_h2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+  .choose_p {
+    padding: 0 50px;
+  }
+  .coomon_hr {
+    width: 280px;
+    margin-left: 120px;
+  }
+  /* choose */
+  /* contact */
+  .contact_form .s_h1 {
+    width: 180px;
+    height: 50px;
+    margin-top: -20px;
+    margin-left: 85px;
+  }
+  .custom_form .all_btn {
+    margin-left: 50px !important;
+  }
+  /* contact */
+  /* footer */
+  .f_tittle p {
+    padding: 15px 15px;
+  }
+  .f_icon ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .f_icon {
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+  .fb_text p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .fb_menu ul {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .fb_menu ul li a {
+    padding-right: 8px !important;
+  }
+  /* footer */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header */
+  .c_dd_menu[data-bs-popper] {
+    top: -10px;
+    left: 80px;
+  }
+  /* header */
+  /* slider */
+
+  .s_1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .s_1 h1 {
+    font-size: 47px;
+  }
+  /* slider */
+  /* services */
+  .t_arrow {
+    height: 35px;
+  }
+  .s_h1 {
+    font-size: 29px;
+  }
+  .s_p1 {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  .s_1 button {
+    width: 130px;
+    height: 35px;
+  }
+  .s_services {
+    margin: 35px 30px 20px;
+    padding: 70px 20px 20px;
+  }
+  .s_text hr {
+    margin-left: 88px;
+  }
+  /* services */
+  /* about */
+  .about {
+    margin-top: 50px;
+  }
+  .a_img {
+    width: 350px;
+    height: 380px;
+  }
+  .a_text {
+    padding: 0 10px;
+  }
+  .all_h1 {
+    font-size: 28px;
+  }
+  .all_p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .a_text .all_btn {
+    width: 160px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  /* about */
+  /* work */
+  .w_inner_img {
+    width: 310px;
+  }
+  /* work */
+  /* choose */
+  .choose_top_bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .choose_text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .choose_text .choose_h2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .choose_text .choose_p {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+  .choose_text .coomon_hr {
+    width: 200px;
+    margin-top: 20px;
+  }
+  /* choose */
+  /* team */
+  .team_item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .item_img {
+    margin-left: 40px;
+  }
+  .item_text {
+    margin-left: 40px;
+  }
+  /* team */
+  /* price */
+  .price_heading {
+    margin: 30px;
+  }
+  .price_heading fieldset legend {
+    margin-left: 100px;
+  }
+  .pih1 {
+    margin-top: 10px;
+  }
+  .price_item ul li {
+    padding-top: 10px;
+  }
+  .pitem_details button {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  /* price */
+  /* inner slider */
+  .slider2_img {
+    padding: 0px;
+  }
+  .slider2_text {
+    padding-top: 0px;
+  }
+  .slidre2_button button {
+    margin: 50px -10px;
+  }
+
+  /* inner slider */
+  /* contact */
+  .contact {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .custom_form {
+    padding: 30px 120px;
+  }
+  .contact_form .s_h1 {
+    width: 200px;
+    height: 50px;
+    margin-top: -20px;
+    margin-left: 245px;
+  }
+  .custom_form .all_btn {
+    margin-left: 120px !important;
+  }
+  /* contact */
+  /* footer */
+  .f_tittle p {
+    padding: 15px 50px;
+  }
+  .f_icon ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .f_icon {
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+  .fb_text p {
+    margin: 12px 0;
+    text-align: center;
+  }
+  .fb_menu ul {
+    margin: 12px 0;
+    text-align: center;
+  }
+  .fb_menu ul li a {
+    padding-right: 8px !important;
+  }
+  /* footer */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* slider */
+  .s_1 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  .s_1 h1 {
+    font-size: 47px;
+  }
+
+  /* slider */
+  /* services */
+  .s_h1 {
+    font-size: 29px;
+  }
+
+  .s_services {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 70px 10px 40px;
+  }
+  .s_text hr {
+    margin-left: 70px;
+  }
+  /* services */
+  /* about */
+  .a_img {
+    width: 450px;
+    height: 413px;
+  }
+  /* about */
+  /* team */
+  .team_item {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .item_img {
+    margin-left: 0px;
+  }
+  .item_text {
+    width: 255px;
+    margin-left: 0px;
+  }
+  /* team */
+  /* work */
+  .w_inner_img {
+    width: 280px;
+  }
+  .overlay {
+    width: 95%;
+  }
+  /* work */
+  /* choose */
+  .choose_top_bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .choose_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .choose_text i {
+    font-size: 40px;
+    color: #8e8e8e;
+  }
+  .choose_text .choose_h2 {
+    margin-top: -35px;
+    margin-left: 0px;
+    padding: 0 5px;
+    font-family: Lato-Bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #8e8e8e;
+    text-align: center;
+  }
+  .choose_text .choose_p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .choose_text .coomon_hr {
+    width: 245px;
+    margin-top: 20px;
+  }
+  /* choose */
+  /* price */
+  .pitem_details button {
+    width: 180px;
+    height: 45px;
+    margin-left: 18px;
+  }
+  /* price */
+  /* short */
+  .short_button .all_btn {
+    margin-left: 10px;
+  }
+  /* short */
+  /* inner slider */
+  .slider2_img {
+    padding: 10px;
+  }
+  .slider2_text {
+    padding-top: 10px;
+  }
+  .slidre2_button button {
+    margin: 40px 0px;
+  }
+
+  /* inner slider */
+  /* contact */
+  .contact_form .s_h1 {
+    margin-left: 360px;
+  }
+  .custom_form .all_btn {
+    margin-left: 120px;
+  }
+  /* contact */
+  /* footer */
+  .fb_menu ul li a {
+    padding-right: 15px !important;
+  }
+  /* footer */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
